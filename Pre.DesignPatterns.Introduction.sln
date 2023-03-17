@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pre.DesignPatterns.Introduction.Cons", "Pre.DesignPatterns.Introduction.Cons\Pre.DesignPatterns.Introduction.Cons.csproj", "{EA13A7EB-1621-4AA4-9F51-4F20E19C732D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pre.DesignPatters.Introduction.Core", "Pre.DesignPatters.Introduction.Core\Pre.DesignPatters.Introduction.Core.csproj", "{150DC8A8-F4E8-4304-A1A9-CEFB2AA826B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA13A7EB-1621-4AA4-9F51-4F20E19C732D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA13A7EB-1621-4AA4-9F51-4F20E19C732D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA13A7EB-1621-4AA4-9F51-4F20E19C732D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA13A7EB-1621-4AA4-9F51-4F20E19C732D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150DC8A8-F4E8-4304-A1A9-CEFB2AA826B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150DC8A8-F4E8-4304-A1A9-CEFB2AA826B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150DC8A8-F4E8-4304-A1A9-CEFB2AA826B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150DC8A8-F4E8-4304-A1A9-CEFB2AA826B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
