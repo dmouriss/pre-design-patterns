@@ -7,7 +7,7 @@ Console.WriteLine(Counter.Instance.Value);
 Console.WriteLine(Counter.Instance.Value);
 Console.WriteLine(Counter.Instance.Value);
 
-string template = "Brugge, <date>\n\nReferentienummer <id>\n\nBeste klant\nlorem ipsum\nMet vriendelijke groeten\nDieter";
+string template = "<city>, <date>\n\nReferentienummer <id>\n\nBeste <name>\nlorem ipsum\nMet vriendelijke groeten\nDieter";
 
 List<Dictionary<string, string>> allContexts = new List<Dictionary<string, string>>()
 {

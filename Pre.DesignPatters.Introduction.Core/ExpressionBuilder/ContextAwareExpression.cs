@@ -11,7 +11,8 @@ public class ContextAwareExpression : Expression
 
     public override string Interpret(string subject, Dictionary<string, string>? context = null)
     {
-        if (context == null || !context.ContainsKey(_contextKey)) throw new Exception("The provided context does not contain the key");
+        if (context == null || !context.ContainsKey(_contextKey)) 
+            throw new Exception("The provided context does not contain the key");
         return subject.Replace(_formula, context[_contextKey]);
     }
 }
